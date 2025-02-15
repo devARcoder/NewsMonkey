@@ -2,8 +2,7 @@ import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuIt
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline';
 import { Link, useLocation } from "react-router-dom";
 const navigation = [
-  { name: 'News', to: '/news' },
-  { name: 'Projects', to: '/projects' },
+  { name: 'About', to: '/about' },
   { name: 'Contact', to: '/contact' },
 ];
 
@@ -31,7 +30,7 @@ const Navbar = () => {
               {/* Logo and Navigation */}
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex items-center">
-                  <h1 className="text-white font-bold text-[20px] md:text-[24px]"><Link className='text-white' to='/news'>NewsMonkey</Link></h1>
+                  <h1 className="text-white font-bold text-[20px] md:text-[24px]"><Link className='text-white' to='/'>NewsMonkey</Link></h1>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">

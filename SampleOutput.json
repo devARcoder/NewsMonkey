@@ -1,33 +1,214 @@
-
 {
-    "status": "ok",
-    "totalResults": 2,
-    "articles": [
-      {
-        "source": {
-          "id": "espn-cric-info",
-          "name": "ESPN Cric Info"
-        },
-        "author": null,
-        "title": "PCB hands Umar Akmal three-year ban from all cricket | ESPNcricinfo.com",
-        "description": "Penalty after the batsman pleaded guilty to not reporting corrupt approaches | ESPNcricinfo.com",
-        "url": "http://www.espncricinfo.com/story/_/id/29103103/pcb-hands-umar-akmal-three-year-ban-all-cricket",
-        "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1099495_800x450.jpg",
-        "publishedAt": "2020-04-27T11:41:47Z",
-        "content": "Umar Akmal's troubled cricket career has hit its biggest roadblock yet, with the PCB handing him a ban from all representative cricket for three years after he pleaded guilty of failing to report det… [+1506 chars]"
+  "status": "ok",
+  "totalResults": 37,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
       },
-      {
-        "source": {
-          "id": "espn-cric-info",
-          "name": "ESPN Cric Info"
-        },
-        "author": null,
-        "title": "What we learned from watching the 1992 World Cup final in full again | ESPNcricinfo.com",
-        "description": "Wides, lbw calls, swing - plenty of things were different in white-ball cricket back then | ESPNcricinfo.com",
-        "url": "http://www.espncricinfo.com/story/_/id/28970907/learned-watching-1992-world-cup-final-full-again",
-        "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1219926_1296x729.jpg",
-        "publishedAt": "2020-03-30T15:26:05Z",
-        "content": "Last week, we at ESPNcricinfo did something we have been thinking of doing for eight years now: pretend-live ball-by-ball commentary for a classic cricket match. We knew the result, yes, but we tried… [+6823 chars]"
-      }
-    ]
-  }
+      "author": "Karen Gilchrist",
+      "title": "Birkin bag maker Hermes posts better-than-expected jump in fourth-quarter sales - CNBC",
+      "description": "Haute couture fashion house Hermes on Friday reported a better-than-expected jump in fourth quarter sales.",
+      "url": "https://www.cnbc.com/2025/02/14/hermes-rms-fr-earnings-q4-2024.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/108101276-1739367442180-gettyimages-2192136407-GERMANY_RETAIL.jpeg?v=1739367466&w=1920&h=1080",
+      "publishedAt": "2025-02-14T07:12:41Z",
+      "content": "Haute couture fashion house Hermes on Friday reported a better-than-expected jump in fourth-quarter sales, proving still strong demand for the most exclusive products in an otherwise turbulent luxury… [+1783 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Financial Times"
+      },
+      "author": "Kathrin Hille",
+      "title": "Taiwan pledges to boost US investment after Donald Trump’s tariff threat - Financial Times",
+      "description": "US president has accused Taipei of ‘stealing’ American semiconductor industry",
+      "url": "https://www.ft.com/content/bdb5381f-786e-404b-9b24-8735bdc95265",
+      "urlToImage": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F8ae04340-c1a1-48cd-9ad4-99d45da290ab.jpg?source=next-barrier-page",
+      "publishedAt": "2025-02-14T06:38:55Z",
+      "content": "FT newspaper delivered Monday-Saturday, plus FT Digital Edition delivered to your device Monday-Saturday.\r\n<ul><li></li>Weekday Print Edition<li></li>FT Weekend<li></li>FT Digital Edition<li>Global n… [+105 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Barron's"
+      },
+      "author": "Barron's",
+      "title": "Eggs Prices Are Soaring—and This Premium Producer Could Benefit - Barron's",
+      "description": null,
+      "url": "https://www.barrons.com/articles/bird-flu-egg-prices-rising-ba627680",
+      "urlToImage": null,
+      "publishedAt": "2025-02-14T05:30:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "axios",
+        "name": "Axios"
+      },
+      "author": "Ivana Saric",
+      "title": "Musk, State Dept. push back on reports of plan to buy $400M of armored Teslas - Axios",
+      "description": "The State Department also denied the reports.",
+      "url": "https://www.axios.com/2025/02/13/musk-contract-armored-tesla",
+      "urlToImage": "https://images.axios.com/EUezhVnwch5XrCesT76phL7pcfE=/0x0:8256x4644/1366x768/2025/02/13/1739464581748.jpg",
+      "publishedAt": "2025-02-14T03:21:57Z",
+      "content": "Elon Musk and the State Department pushed back on reports Thursday that the agency was slated to purchase $400 million worth of armored Tesla Cybertrucks.\r\nWhy it matters: Musk, arguably the most pow… [+2091 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Investopedia"
+      },
+      "author": "Timothy Smith",
+      "title": "Watch These GameStop Price Levels as Stock Pops After Report Of Bitcoin Investment Plan - Investopedia",
+      "description": "GameStop shares popped nearly 8% in extended trading Thursday after a report that the game retailer turned meme stock is considering investing in bitcoin and other cryptocurrencies. Monitor these key chart levels that investors may be watching.",
+      "url": "https://www.investopedia.com/watch-these-gamestop-price-levels-as-stock-pops-after-report-of-bitcoin-investment-plan-11679855",
+      "urlToImage": "https://www.investopedia.com/thmb/Bs0uvaySq2yKrfNPJhe5CJofo1Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GMEChart-7286536908ce4d7094c18b59292074f2.gif",
+      "publishedAt": "2025-02-14T03:14:21Z",
+      "content": "<ul><li>GameStop shares popped nearly 8% in extended trading on Thursday after a report surfaced that the game retailer turned meme stock is considering investing in bitcoin and other cryptocurrencie… [+3633 chars]"
+    },
+    {
+      "source": {
+        "id": "bloomberg",
+        "name": "Bloomberg"
+      },
+      "author": "Mark Gurman",
+      "title": "Apple Plans to Overhaul China iPhones With AI by Middle of Year - Bloomberg",
+      "description": "Apple Inc. is working to bring its AI features to China by the middle of this year, accelerating a complex undertaking that has required software changes and deep reliance on local partners.",
+      "url": "https://www.bloomberg.com/news/articles/2025-02-14/apple-plans-to-overhaul-china-iphones-with-ai-by-middle-of-year",
+      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iVKiiCnFngrg/v3/1200x800.jpg",
+      "publishedAt": "2025-02-14T03:14:00Z",
+      "content": "Apple Inc. is working to bring its AI features to China by the middle of this year, accelerating a complex undertaking that has required software changes and deep reliance on local partners.\r\nThe iPh… [+369 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "BBC News"
+      },
+      "author": null,
+      "title": "TikTok returns to Android and Apple app stores in the US - BBC.com",
+      "description": "TikTok is again available on app stores in the US after President Donald Trump delayed a ban on the app.",
+      "url": "https://www.bbc.com/news/articles/c4g91kyjw07o",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/b654/live/56068e20-ea78-11ef-8529-15ee826bcad1.jpg",
+      "publishedAt": "2025-02-14T02:53:47Z",
+      "content": "João da Silva\r\nTikTok is again available on the US app stores of Apple and Google, after President Donald Trump postponed enforcement of a ban of the Chinese-owned social media platform until 5 April… [+2846 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Seattle Times"
+      },
+      "author": "Lauren Rosenblatt",
+      "title": "WA rocket company plans to cut 10% of workforce - The Seattle Times",
+      "description": "Blue Origin, formed by Amazon founder Jeff Bezos, had successfully launched its New Glenn rocket last month after years of delays.",
+      "url": "https://www.seattletimes.com/business/boeing-aerospace/jeff-bezos-kent-based-blue-origin-plans-to-cut-10-of-workforce/",
+      "urlToImage": "https://images.seattletimes.com/wp-content/uploads/2025/02/02132025_Blue-Origin_tzr_074546.jpg?d=1200x630",
+      "publishedAt": "2025-02-14T02:20:21Z",
+      "content": "Blue Origin, the rocket company formed by Amazon founder Jeff Bezos, on Thursday announced plans to cut 10% of its workforce as it tries to regain ground against Elon Musk-owned rival SpaceX.\r\nCEO Da… [+6130 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Lisa Kailai Han",
+      "title": "S&P 500 futures are flat after Trump delays new tariffs, Wall Street heads for winning week: Live updates - CNBC",
+      "description": "All three major averages are on pace to end the week higher.",
+      "url": "https://www.cnbc.com/2025/02/13/stock-market-today-live-updates.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/108102435-1739480983914-NYSE_Traders-OB-Photo-20250213-CC-PRESS-12.jpg?v=1739481111&w=1920&h=1080",
+      "publishedAt": "2025-02-14T00:19:00Z",
+      "content": "S&amp;P 500 futures were little changed Thursday night after President Donald Trump held off on imposing new reciprocal tariffs.\r\nFutures linked to the broad market index hovered near the flatline, w… [+1652 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Tipranks.com"
+      },
+      "author": "Joel Baglole",
+      "title": "COIN Earnings: Coinbase Global Obliterates Wall Street’s Targets as Crypto Trading Explodes - TipRanks",
+      "description": "Cryptocurrency exchange Coinbase Global ($COIN) has reported fourth-quarter 2024 financial results that crushed Wall Street’s targets as trading in Bitcoin ($BTC) a...",
+      "url": "https://www.tipranks.com/news/coin-earnings-coinbase-global-obliterates-wall-streets-targets-as-crypto-trading-explodes",
+      "urlToImage": "https://blog.tipranks.com/wp-content/uploads/2025/02/aap-2-750x406.jpg",
+      "publishedAt": "2025-02-13T22:01:54Z",
+      "content": "Story HighlightsThe company has seen activity on its trading platform surge in recent months."
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Investor's Business Daily"
+      },
+      "author": "RYAN DEFFENBAUGH, Investor's Business Daily",
+      "title": "Airbnb Stock Jumps As Sales Growth Accelerates, Earnings Beat - Investor's Business Daily",
+      "description": "Airbnb stock jumped after reporting Q4 sales growth accelerated to 12%, with Airbnb saying it saw strong demand from all regions.",
+      "url": "https://www.investors.com/news/technology/airbnb-earnings-on-deck-here-are-the-numbers-to-watch/",
+      "urlToImage": "https://www.investors.com/wp-content/uploads/2020/12/Stock-AirBnB-02-adobe.jpg",
+      "publishedAt": "2025-02-13T21:23:00Z",
+      "content": "Airbnb (ABNB) stock jumped after the vacation-rentals booking company reported fourth quarter earnings and sales ahead of expectations.\r\nAirbnb earned 73 cents per share on sales of $2.48 billion for… [+2320 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Charles Rollet",
+      "title": "Eon Musk’s full offer letter to buy OpenAI reveals five key details - TechCrunch",
+      "description": "A group led by Elon Musk's x.AI wants to buy OpenAI. Read five key takeaways from its offer letter.",
+      "url": "https://techcrunch.com/2025/02/13/eon-musks-full-offer-letter-to-buy-openai-reveals-five-key-details/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-2183887189.jpg?resize=1200,800",
+      "publishedAt": "2025-02-13T20:00:10Z",
+      "content": "A consortium of investors led by Elon Musk’s x.AI offered to buy OpenAI for $97.4 billion this week. OpenAI CEO Sam Altman has dismissed the proposal, which would gum up OpenAIs planned conversion fr… [+3541 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Quartz India"
+      },
+      "author": "Francisco Velasquez",
+      "title": "Shein and Temu may already have a case of the Trump-tariff blues - Quartz",
+      "description": "The potential impact of the tariffs on e-commerce giants could rattle the competitive landscape — fueling Amazon's dominance",
+      "url": "https://qz.com/trump-tariffs-shein-temu-amazon-us-market-retail-1851762649",
+      "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/a9bbd3461ba154150c109d9074661192.jpg",
+      "publishedAt": "2025-02-13T19:29:00Z",
+      "content": "In This Story\r\nPresident Donald Trumps looming tariffs already seem to be undermining the U.S. expansions of e-commerce giants Shein and Temu, as both companies reportedly experienced significant dai… [+2661 chars]"
+    },
+    {
+      "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+      },
+      "author": "Jyoti Mann",
+      "title": "Meta CTO: Employees Who Disagree With Policy Changes Should Quit - Business Insider",
+      "description": "In internal messages seen by Business Insider, Meta CTO Andrew Bosworth also discussed leaks.",
+      "url": "https://www.businessinsider.com/meta-layoffs-cto-employees-disagree-policy-changes-quit-2025-2",
+      "urlToImage": "https://i.insider.com/67ae378e7bb3f854015cd1a6?width=1200&format=jpeg",
+      "publishedAt": "2025-02-13T19:03:00Z",
+      "content": "Meta's chief technology officer, Andrew Bosworth, told some employees to quit and \"consider working elsewhere\" if they thought all staffers must like the company's policies.\r\nBosworth's remarks were … [+3449 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "The Wall Street Journal",
+      "title": "AppLovin Could Be the Next TikTok, Analysts Say - The Wall Street Journal",
+      "description": null,
+      "url": "https://www.wsj.com/tech/applovin-could-be-the-next-tiktok-analysts-say-bf1487cc",
+      "urlToImage": null,
+      "publishedAt": "2025-02-13T17:55:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "fortune",
+        "name": "Fortune"
+      },
+      "author": "Christiaan Hetzner",
+      "title": "Billionaire Ray Dalio warns America faces 'economic heart attack' if it doesn't radically reduce U.S. fiscal deficit - Fortune",
+      "description": "The U.S. must slash its deficit to 3% from an expected 7.5% before the president's second term in office ends, otherwise a death spiral will likely ensue.",
+      "url": "https://fortune.com/2025/02/13/trump-national-debt-fiscal-deficit-economic-heart-attack-ray-dalio-bridgewater-hedge-fund/",
+      "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2025/02/GettyImages-2154149180-e1739466459207.jpg?resize=1200,600",
+      "publishedAt": "2025-02-13T17:47:00Z",
+      "content": null
+    }
+  ]
+}
