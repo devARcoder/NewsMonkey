@@ -2,8 +2,13 @@ import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuIt
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline';
 import { Link, useLocation } from "react-router-dom";
 const navigation = [
-  { name: 'About', to: '/about' },
-  { name: 'Contact', to: '/contact' },
+  { name: 'General', to: '/general' },
+  { name: 'Business', to: '/business' },
+  { name: 'Entertainment', to: '/entertainment' },
+  { name: 'Health', to: '/health' },
+  { name: 'Science', to: '/science' },
+  { name: 'Sports', to: '/sports' },
+  { name: 'Technology', to: '/technology' },
 ];
 
 function classNames(...classes) {
