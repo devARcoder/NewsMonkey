@@ -10,8 +10,8 @@ export class NewsItems extends Component {
             <h1 className="mb-1 text-xl font-medium text-black dark:text-white text-center bg-gray-100 p-2">{name}</h1>
           <div className="flex flex-col items-center p-4">
             <img
-              className="mb-3 rounded-md shadow-md"
-              src={!imageUrl?"https://news.sap.com/wp-content/blogs.dir/1/files/2025/02/13/292949_GettyImages-1349338192_medium_uncropped_F.jpg":imageUrl}
+              className="mb-3 rounded-md shadow-md w-96 h-48 object-cover"
+              src={!imageUrl?"https://ichef.bbci.co.uk/news/1024/branded_news/b654/live/56068e20-ea78-11ef-8529-15ee826bcad1.jpg":imageUrl}
               alt="error"
             />
             <h5 className="mb-1 text-xl font-medium text-black dark:text-white text-center">
