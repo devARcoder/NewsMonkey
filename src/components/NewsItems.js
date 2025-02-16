@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 export class NewsItems extends Component {
   render() {
-    let {name, title, desc, imageUrl, newsUrl, published} = this.props;
+    let {name, title, desc, imageUrl, newsUrl, published, author} = this.props;
     return (
       <div>
         <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
@@ -29,11 +29,11 @@ export class NewsItems extends Component {
                 href="/" rel="noreferrer"
                 className="py-2 px-4 ms-2 text-sm font-medium text-white bg-green-500 border border-black rounded-lg hover:bg-green-700"
               >
-                Save Page
+                Save News
               </a>
             </div>
           </div>
-          <p className="text-sm font-medium text-black dark:text-white text-center bg-gray-100 p-2">{published}</p>
+          <p className="text-sm font-medium text-black dark:text-white text-center bg-gray-100 p-2">By {!author?"Unknown":author} on {new Date(published).toGMTString()}</p>
         </div>
       </div>
     );
