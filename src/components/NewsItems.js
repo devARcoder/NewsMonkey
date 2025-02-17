@@ -5,13 +5,13 @@ export class NewsItems extends Component {
     let {name, title, desc, imageUrl, newsUrl, published, author} = this.props;
     return (
       <div>
-        <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+        <div className="w-full max-w-sm bg-white border-2 border-gray-500 rounded-lg shadow-sm my-1">
           
-            <h1 className="mb-1 text-xl font-medium text-black dark:text-white text-center bg-gray-100 p-2">{name}</h1>
+            <h1 className="mb-1 text-xl font-medium text-white dark:text-white text-center bg-gray-800 p-2">{name}</h1>
           <div className="flex flex-col items-center p-4">
             <img
               className="mb-3 rounded-md shadow-md w-96 h-48 object-cover"
-              src={!imageUrl?"https://ichef.bbci.co.uk/news/1024/branded_news/b654/live/56068e20-ea78-11ef-8529-15ee826bcad1.jpg":imageUrl}
+              src={!imageUrl?"https://ambcrypto.com/wp-content/uploads/2025/02/Samyukhtha-45-1000x600.webp":imageUrl}
               alt="error"
             />
             <h5 className="mb-1 text-xl font-medium text-black dark:text-white text-center">
