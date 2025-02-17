@@ -20,7 +20,7 @@ const Navbar = () => {
   const location = useLocation();
 
   return (
-    <Disclosure as="nav" className="bg-gray-800">
+    <Disclosure as="nav" className="bg-gray-800 sticky top-0 w-full z-50 shadow-md">
       {({ open, close }) => ( // Get 'close' function
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
