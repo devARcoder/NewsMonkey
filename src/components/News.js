@@ -26,11 +26,11 @@ const News = (props) => {
     setTotalResults(parsedData.totalResults);
     setLoading(false);
     props.setProgress(100);
-  }, [props, page]); // Add dependencies to prevent re-creation on each render
+  }, [props, page]);
 
   useEffect(() => {
     updateNews();
-  }, [updateNews]); // No warning now!
+  }, [updateNews]);
 
   const fetchMoreData = async () => {
     const newPage = page + 1;
