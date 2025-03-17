@@ -32,7 +32,7 @@ const App = () => {
                   key="general"
                   pageSize={pageSize}
                   country={countryName}
-                  ategory="general"
+                  category="general"
                 />
               }
             />
