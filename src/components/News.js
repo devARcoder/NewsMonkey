@@ -4,61 +4,65 @@ import Spinner from "./Spinner";
 import PropTypes from "prop-types";
 import InfiniteScroll from "react-infinite-scroll-component";
 
-const News = (props) => {
+const News = ({ country, category, apiKey, pageSize, setProgress }) => {
   const [articles, setArticles] = useState([]);
   const [loading, setLoading] = useState(true);
   const [page, setPage] = useState(1);
   const [totalResults, setTotalResults] = useState(0);
 
-  const capitalizeFirstLetter = (val) => {
-    return String(val).charAt(0).toUpperCase() + String(val).slice(1);
-  };
+  const capitalizeFirstLetter = (val) =>
+    String(val).charAt(0).toUpperCase() + String(val).slice(1);
 
-  const updateNews = useCallback(async () => {
-    props.setProgress(10);
-    const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page}&pageSize=${props.pageSize}`;
+  const fetchNews = useCallback(async (pageNum) => {
+    setProgress(10);
+    const url = `https://newsapi.org/v2/top-headlines?country=${country}&category=${category}&apiKey=${apiKey}&page=${pageNum}&pageSize=${pageSize}`;
     setLoading(true);
-    let data = await fetch(url);
-    props.setProgress(30);
-    let parsedData = await data.json();
-    props.setProgress(70);
-    setArticles(parsedData.articles);
-    setTotalResults(parsedData.totalResults);
-    setLoading(false);
-    props.setProgress(100);
-  }, [props, page]);
+
+    try {
+      let data = await fetch(url);
+      setProgress(30);
+      let parsedData = await data.json();
+      setProgress(70);
+
+      if (pageNum === 1) {
+        setArticles(parsedData.articles || []); // First-time load
+      } else {
+        setArticles((prevArticles) => [...prevArticles, ...(parsedData.articles || [])]); // Append articles
+      }
+
+      setTotalResults(parsedData.totalResults || 0);
+      setLoading(false);
+      setProgress(100);
+    } catch (error) {
+      console.error("Error fetching news:", error);
+      setLoading(false);
+    }
+  }, [country, category, apiKey, pageSize, setProgress]);
 
   useEffect(() => {
-    updateNews();
-  }, [updateNews]);
+    fetchNews(1); // Load first page initially
+  }, [fetchNews]);
 
   const fetchMoreData = async () => {
-    const newPage = page + 1;
-    setPage(newPage);
-    const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${newPage}&pageSize=${props.pageSize}`;
-    let data = await fetch(url);
-    let parsedData = await data.json();
-    setArticles((prevArticles) => prevArticles.concat(parsedData.articles));
-    setTotalResults(parsedData.totalResults);
+    const nextPage = page + 1;
+    setPage(nextPage);
+    fetchNews(nextPage);
   };
 
   return (
     <div>
       <h1 className="text-2xl text-gray-800 font-bold text-center my-4">
-        NewsMonkey - Top {capitalizeFirstLetter(props.category)} Headlines
+        NewsMonkey - Top {capitalizeFirstLetter(category)} Headlines
       </h1>
       <div className="text-center flex justify-center items-center">
         {loading && <Spinner />}
       </div>
+
       <InfiniteScroll
         dataLength={articles.length}
         next={fetchMoreData}
-        hasMore={articles.length !== totalResults}
-        loader={
-          <div className="text-center flex justify-center items-center">
-            {loading && <Spinner />}
-          </div>
-        }
+        hasMore={articles.length < totalResults}
+        loader={<Spinner />}
       >
         <div className="grid grid-cols-1 gap-2 justify-center justify-items-center md:grid md:grid-cols-3 md:gap-5 md:justify-center md:justify-items-center">
           {articles.map((element) => (
@@ -66,11 +70,7 @@ const News = (props) => {
               <NewsItems
                 name={element.source.name}
                 title={element.title ? element.title.slice(0, 40) : ""}
-                desc={
-                  element.description
-                    ? element.description.slice(0, 120)
-                    : "Data will be removed by devARcoder"
-                }
+                desc={element.description ? element.description.slice(0, 120) : "Data will be removed by devARcoder"}
                 imageUrl={element.urlToImage}
                 newsUrl={element.url}
                 published={element.publishedAt}
